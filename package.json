@@ -1,0 +1,38 @@
+{
+    "name": "ws-edit",
+    "displayName": "WS Edit",
+    "description": "Open .code-workspace files as JSONC for editing with full language support",
+    "version": "0.1.0",
+    "publisher": "cyberclast",
+    "author": {
+        "name": "Cyberclast Software Solutions Ltd.",
+        "url": "https://cyberclast.com"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cyberclast/ws-edit.git"
+    },
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "categories": ["Other"],
+    "activationEvents": ["onStartupFinished"],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "ws-edit.openAsJsonc",
+                "title": "WS Edit: Open workspace file as JSONC"
+            }
+        ]
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "install-local": "vsce package && code --install-extension ws-edit-0.1.0.vsix"
+    },
+    "devDependencies": {
+        "@vscode/vsce": "^3.0.0",
+        "eslint": "^8.0.0"
+    }
+}
