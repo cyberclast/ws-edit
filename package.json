@@ -17,7 +17,7 @@
     "engines": {
         "vscode": "^1.85.0"
     },
-    "categories": ["Workspaces"],
+    "categories": ["Other"],
     "keywords": ["workspace", "jsonc", "multi-root", "folders"],
     "galleryBanner": {
         "color": "#1f1f1f",
