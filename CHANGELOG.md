@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.2.0] - 2026-03-28
+
+- Simplified: opens the workspace file directly, no symlink required
+
 ## [0.1.0] - 2026-03-21
 
 - Initial release

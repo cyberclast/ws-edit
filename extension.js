@@ -19,10 +19,6 @@ function activate(context) {
     );
 }
 
-function deactivate() {
-    if (statusBarManager) {
-        statusBarManager.dispose();
-    }
-}
+function deactivate() {}
 
 module.exports = { activate, deactivate };

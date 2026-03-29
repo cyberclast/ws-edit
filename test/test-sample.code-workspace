@@ -3,9 +3,9 @@
         {
             "path": "folder 1",
         },
-        {
-            "path": "folder 2",
-        },
+        // {
+        //     "path": "folder 2",
+        // },
     ],
     "settings": {},
 }

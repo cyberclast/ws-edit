@@ -1,8 +1,8 @@
 {
     "name": "ws-edit",
     "displayName": "WS Edit",
-    "description": "Open .code-workspace files as JSONC for editing with full language support",
-    "version": "0.1.0",
+    "description": "Convenient status bar button to edit current workspace as JSON",
+    "version": "0.2.0",
     "publisher": "cyberclast",
     "author": {
         "name": "Cyberclast Software Solutions Ltd.",
@@ -17,19 +17,28 @@
     "engines": {
         "vscode": "^1.85.0"
     },
-    "categories": ["Other"],
-    "keywords": ["workspace", "jsonc", "multi-root", "folders"],
+    "categories": [
+        "Other"
+    ],
+    "keywords": [
+        "workspace",
+        "jsonc",
+        "multi-root",
+        "folders"
+    ],
     "galleryBanner": {
         "color": "#1f1f1f",
         "theme": "dark"
     },
-    "activationEvents": ["onStartupFinished"],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
     "main": "./extension.js",
     "contributes": {
         "commands": [
             {
-                "command": "ws-edit.openAsJsonc",
-                "title": "WS Edit: Open workspace file as JSONC"
+                "command": "ws-edit.open",
+                "title": "WS Edit: Edit current workspace as JSON"
             }
         ]
     },
